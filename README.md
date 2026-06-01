@@ -43,6 +43,42 @@ Designed for researchers and practitioners, this framework abandons black-box de
 | **Rao-3** | Rao-2 + second random partner interaction term | Highly explorative |
 | **FISA**  | Fitness-based Individual-Step Algorithm | Parameter-free adaptability |
 
+## 📊 Benchmark Functions Overview (CEC2017)
+
+| No. | Functions | \( F_i^* = F_i(x^*) \) | Properties |
+|------|-----------|------------------------|-------------|
+| 1 | Shifted and Rotated Bent Cigar Function | 100 | Unimodal, non-separable, smooth but narrow ridge |
+| 2 | Shifted and Rotated Zakharov Function | 200 | Unimodal, non-separable |
+| 3 | Shifted and Rotated Rosenbrock’s Function | 300 | Multimodal, non-separable, narrow curved valley |
+| 4 | Shifted and Rotated Rastrigin’s Function | 400 | Multimodal, non-separable, huge number of local optima, second best local optimum far from global |
+| 5 | Shifted and Rotated Expanded Scaffer’s F6 Function | 500 | Multimodal, non-separable, asymmetrical, huge number of local optima |
+| 6 | Shifted and Rotated Lunacek Bi_Rastrigin Function | 600 | Multimodal, non-separable, asymmetrical, continuous everywhere but differentiable nowhere |
+| 7 | Shifted and Rotated Non-Continuous Rastrigin’s Function | 700 | Multimodal, non-separable, asymmetrical, huge number of local optima |
+| 8 | Shifted and Rotated Levy Function | 800 | Multimodal, non-separable, huge number of local optima |
+| 9 | Shifted and Rotated Schwefel's Function | 900 | Multimodal, non-separable, huge number of local optima, second best local optimum far from global |
+| 10 | Hybrid Function 1 (N = 3) | 1000 | Hybrid: multi-modal or unimodal depending on subcomponents, non-separable subcomponents, different properties per variable subset |
+| 11 | Hybrid Function 2 (N = 3) | 1100 | Same as above |
+| 12 | Hybrid Function 3 (N = 3) | 1200 | Same as above |
+| 13 | Hybrid Function 4 (N = 4) | 1300 | Same as above |
+| 14 | Hybrid Function 5 (N = 4) | 1400 | Same as above |
+| 15 | Hybrid Function 6 (N = 4) | 1500 | Same as above |
+| 16 | Hybrid Function 6 (N = 5) | 1600 | Same as above |
+| 17 | Hybrid Function 6 (N = 5) | 1700 | Same as above |
+| 18 | Hybrid Function 6 (N = 5) | 1800 | Same as above |
+| 19 | Hybrid Function 6 (N = 6) | 1900 | Same as above |
+| 20 | Composition Function 1 (N = 3) | 2000 | Composition: multi-modal, non-separable, asymmetrical, different properties around different local optima |
+| 21 | Composition Function 2 (N = 3) | 2100 | Same as above |
+| 22 | Composition Function 3 (N = 4) | 2200 | Same as above |
+| 23 | Composition Function 4 (N = 4) | 2300 | Same as above |
+| 24 | Composition Function 5 (N = 5) | 2400 | Same as above |
+| 25 | Composition Function 6 (N = 5) | 2500 | Same as above |
+| 26 | Composition Function 7 (N = 6) | 2600 | Same as above |
+| 27 | Composition Function 8 (N = 6) | 2700 | Same as above |
+| 28 | Composition Function 9 (N = 3) | 2800 | Composition using hybrid functions: multi-modal, non-separable, asymmetrical, different properties for different variable subcomponents |
+| 29 | Composition Function 10 (N = 3) | 2900 | Same as above |
+
+**Search Range:** \([-100,100]^D\)
+
 ---
 
 ## 🚀 Quick Start
