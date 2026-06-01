@@ -43,6 +43,43 @@ Designed for researchers and practitioners, this framework abandons black-box de
 | **Rao-3** | Rao-2 + second random partner interaction term | Highly explorative |
 | **FISA**  | Fitness-based Individual-Step Algorithm | Parameter-free adaptability |
 
+## 📊 Benchmark Functions Overview (CEC2013)
+
+| No. | Functions | \( f_i^* - f_i(x^*) \) | Characteristics |
+|------|-----------|------------------------|-----------------|
+| 1 | Sphere Function | -1400 | Unimodal, separable |
+| 2 | Rotated High Conditioned Elliptic Function | -1300 | Unimodal, non-separable, ill-conditioned, smooth irregularities |
+| 3 | Rotated Bent Cigar Function | -1200 | Unimodal, non-separable, narrow ridge, high condition number |
+| 4 | Rotated Discus Function | -1100 | Unimodal, non-separable, asymmetrical, one sensitive direction |
+| 5 | Different Powers Function | -1000 | Unimodal, separable, variable sensitivities |
+| 6 | Rotated Rosenbrock’s Function | -900 | Multimodal (for \( D > 3 \)), non-separable, narrow curved valley |
+| 7 | Rotated Schaffers F7 Function | -800 | Multimodal, non-separable, asymmetrical, huge number of local optima |
+| 8 | Rotated Ackley’s Function | -700 | Multimodal, non-separable, asymmetrical |
+| 9 | Rotated Weierstrass Function | -600 | Multimodal, non-separable, continuous but differentiable only on a set |
+| 10 | Rotated Griewank’s Function | -500 | Multimodal, non-separable |
+| 11 | Rastrigin’s Function | -400 | Multimodal, **separable**, asymmetrical, huge local optima |
+| 12 | Rotated Rastrigin’s Function | -300 | Multimodal, non-separable, asymmetrical, huge local optima |
+| 13 | Non-Continuous Rotated Rastrigin’s Function | -200 | Multimodal, non-separable, discontinuous, huge local optima |
+| 14 | Schwefel’s Function | -100 | Multimodal, non-separable, deceptive, second optimum far from global |
+| 15 | Rotated Schwefel’s Function | 100 | Multimodal, non-separable, deceptive, second optimum far |
+| 16 | Rotated Katsuura Function | 200 | Multimodal, non-separable, continuous but nowhere differentiable |
+| 17 | Lunacek Bi_Rastrigin Function | 300 | Multimodal, non-separable, two different basins |
+| 18 | Rotated Lunacek Bi_Rastrigin Function | 400 | Multimodal, non-separable, two different basins |
+| 19 | Expanded Griewank’s plus Rosenbrock’s Function | 500 | Multimodal, non-separable |
+| 20 | Expanded Scaff’s F6 Function | 600 | Multimodal, non-separable, asymmetrical |
+| 21 | Composition Function (n=5,Rotated) | 700 | Multimodal, non-separable, asymmetrical, different properties around different local optima |
+| 22 | Composition Function (n=3,Unrotated) | 800 | Multimodal, separable, asymmetrical, different properties around different local optima |
+| 23 | Composition Function (n=3,Rotated) | 900 | Multimodal, non-separable, asymmetrical, different properties around different local optima |
+| 24 | Composition Function (n=3,Rotated) | 1000 | Same as above |
+| 25 | Composition Function (n=3,Rotated) | 1100 | Same as above |
+| 26 | Composition Function (n=5,Rotated) | 1200 | Same as above |
+| 27 | Composition Function (n=5,Rotated) | 1300 | Same as above |
+| 28 | Composition Function (n=5,Rotated) | 1400 | Same as above |
+
+**Search Range:** \([-100,100]^D\)
+
+<br>
+
 ## 📊 Benchmark Functions Overview (CEC2017)
 
 | No. | Functions | \( F_i^* = F_i(x^*) \) | Properties |
