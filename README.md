@@ -5,7 +5,6 @@
   [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
   [![Mathematical Parity](https://img.shields.io/badge/mathematics-C_Source_Verified-success.svg)](#)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![CI](https://github.com/LakshyMaheshwari/CEC13-CEC17/actions/workflows/python-app.yml/badge.svg)](https://github.com/LakshyMaheshwari/CEC13-CEC17/actions)
 
 </div>
 
