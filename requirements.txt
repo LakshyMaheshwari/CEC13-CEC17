@@ -1,5 +1,7 @@
-numpy
-scipy
-matplotlib
-tqdm
-pytest
+numpy==2.4.*
+scipy==1.17.*
+matplotlib==3.10.*
+tqdm==4.67.*
+pytest==8.*
+pandas==3.0.*
+openpyxl==3.1.*
