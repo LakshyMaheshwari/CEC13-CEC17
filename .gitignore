@@ -48,6 +48,7 @@ coverage.xml
 
 # Batch runner scripts — redundant, main.py --all covers this
 **/run_all*.py
+**/plot_3d_data.py
 
 # Environments
 .venv/
