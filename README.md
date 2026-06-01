@@ -47,6 +47,8 @@ Designed for researchers and practitioners, this framework abandons black-box de
 
 ## 📊 Benchmark Functions Overview (CEC2013)
 
+> **Official Paper:** [Problem Definitions and Evaluation Criteria for the CEC 2013 Special Session on Real-Parameter Optimization](https://personal.ntu.edu.sg/epnsugan/index_files/CEC2013/CEC2013_Tech_Report.pdf)
+
 > **Note:** The column $f_i^*$ lists the **global optimum value** for each function. Search range: $[-100,100]^D$.
 
 | No. | Functions | $f_i^*$ | Characteristics |
@@ -83,6 +85,8 @@ Designed for researchers and practitioners, this framework abandons black-box de
 ---
 
 ## 📊 Benchmark Functions Overview (CEC2017)
+
+> **Official Paper:** [Problem Definitions and Evaluation Criteria for the CEC 2017 Special Session and Competition on Single Objective Bound Constrained Real-Parameter Numerical Optimization](https://github.com/P-N-Suganthan/CEC2017-BoundContrained/blob/master/CEC2017%20Tech%20Report.pdf)
 
 > **Note:** The column $F_i^*$ lists the **global optimum value** for each function. Search range: $[-100,100]^D$. Function F2 is excluded per official CEC2017 errata.
 
