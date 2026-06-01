@@ -43,13 +43,18 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Generated results (large binary output — regenerate via run_all.py)
+# Generated results (large binary output — regenerate via main.py)
 results/
 CEC2017/results/
 CEC2013/results/
 
-# CEC2013 — kept local only, not published
-CEC2013/
+# Batch runner scripts — redundant, main.py --all covers this
+CEC2017/run_all.py
+CEC2017/run_all_d2.py
+CEC2017/run_all_d10.py
+CEC2013/run_all.py
+CEC2013/run_all_d2.py
+CEC2013/run_all_d10.py
 
 # Environments
 .venv/
